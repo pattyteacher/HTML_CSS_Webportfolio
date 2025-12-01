@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      /* สร้างรูปแบบกล่องด้วย Box Model ขนาดเส้นขอบท 2px เป็นเส้นทีบ สีแดง ระยะห่างระหว่าง content กับขอบ เท่ากับ 10px */
+      .box {
+        width: 50%;
+        margin: 15px;
+        border: 2px solid red;
+        padding: 10px;
+      }
+      .box2 {
+        position: relative;
+        top: 20px;
+        left: 100px;
+        width: 50%;
+        margin: 15px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: blue;
+      }
+      .promotion {
+        text-align: center;
+        color: blue;
+        width: 100px;
+        background-color: yellow;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Box1</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam,
+        veritatis? Deserunt placeat, facere eius modi exercitationem, quae quo
+        mollitia at quos dolore assumenda incidunt accusantium ipsa explicabo
+        dolor sed natus?
+      </p>
+    </div>
+
+    <div class="box2">
+      <h1>Box2</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam,
+        veritatis? Deserunt placeat, facere eius modi exercitationem, quae quo
+        mollitia at quos dolore assumenda incidunt accusantium ipsa explicabo
+        dolor sed natus?
+      </p>
+    </div>
+
+    <div class="promotion">Promotion</div>
+  </body>
+</html>
