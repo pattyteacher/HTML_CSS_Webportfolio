@@ -13,21 +13,48 @@
         padding: 10px;
       }
       .box2 {
-        position: relative;
+        /* position: relative;
         top: 20px;
-        left: 100px;
+        left: 100px; */
         width: 50%;
         margin: 15px;
         border-width: 5px;
         border-style: solid;
         border-color: blue;
       }
-      .promotion {
+      .button {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
         text-align: center;
         color: blue;
         width: 100px;
-        background-color: yellow;
+        background-color: lightblue;
         padding: 10px;
+      }
+      .news {
+        position: relative;
+        box-sizing: border-box;
+        width: 300px;
+        padding: 10px;
+        background-color: lightgoldenrodyellow;
+      }
+      .promotion {
+        position: fixed;
+        bottom: 10px;
+        right: 0;
+        background-color: green;
+        color: white;
+        width: 100px;
+        padding: 10px;
+        text-align: center;
+      }
+      .main {
+        display: flex;
+        gap: 10px;
+      }
+      .item{
+        background-color: pink;
       }
     </style>
   </head>
@@ -52,6 +79,46 @@
       </p>
     </div>
 
+    <div class="news">
+      <h1>น้ำท่วม</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptate
+        consequatur atque, neque labore porro minima distinctio sequi harum
+        excepturi quia beatae maiores laudantium magnam nostrum impedit commodi
+        dolores ad?
+      </p>
+      <div class="button">Read More</div>
+    </div>
+
     <div class="promotion">Promotion</div>
+
+    <div class="main">
+      <div class="item">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui
+          aliquam et doloremque neque incidunt voluptatibus repudiandae,
+          provident pariatur eos assumenda quasi perferendis, ullam error
+          excepturi iste a ipsa eaque?
+        </p>
+      </div>
+
+      <div class="item">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui
+          aliquam et doloremque neque incidunt voluptatibus repudiandae,
+          provident pariatur eos assumenda quasi perferendis, ullam error
+          excepturi iste a ipsa eaque?
+        </p>
+      </div>
+
+      <div class="item">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui
+          aliquam et doloremque neque incidunt voluptatibus repudiandae,
+          provident pariatur eos assumenda quasi perferendis, ullam error
+          excepturi iste a ipsa eaque?
+        </p>
+      </div>
+    </div>
   </body>
 </html>
